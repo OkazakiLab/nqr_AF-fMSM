@@ -1,4 +1,3 @@
-# csv形式で書いたアミノ酸ペアのセグメント名と残基番号を使ってMDトラジェクトリから距離データを計算してcsvファイルに書き出し
 import numpy as np
 import pandas as pd
 import glob
