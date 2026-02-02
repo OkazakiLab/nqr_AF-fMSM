@@ -9,8 +9,8 @@ nqr_AF-fMSM
 │   │  ├── nqr.json
 │   │  ├── run_msa.sh               # sample script for MSA preparation
 │   │  └── run_inference.sh         # sample script for structural inference
-│   ├── af3_mmm/                    # sample scripts for MSA subsampling (cf. https://github.com/OkazakiLab/af3_mmm)
-│   └── template_usage/             # sample scripts for template usage
+│   ├── af3_mmm/                    # sample file for MSA subsampling (cf. https://github.com/OkazakiLab/af3_mmm)
+│   └── template_usage/             # sample file for template usage
 ├── MSM_FESred/                     # MD data for MSM under reduced 2Fe-2S conditions 
 │   ├── msm_data/ 
 │   ├── AF3/                        # MD data initiated from AF3 structures
