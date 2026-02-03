@@ -3,6 +3,7 @@ This repository contains **scripts and associated data for constructing and anal
 - Preprint: https://doi.org/10.64898/2026.01.28.702413
 
 ## Directory structure
+```text
 nqr_AF-fMSM
 ├── AlphaFold3/                # job scripts & input files for AlphaFold3
 │   ├── default/
@@ -29,6 +30,7 @@ nqr_AF-fMSM
 │   ├── input_features.csv
 │   └── exp_data/
 └── README.md
+```
 
 ## Computational environments
 ### MD trajectory analysis
