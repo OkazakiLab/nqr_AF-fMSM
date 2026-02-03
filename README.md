@@ -4,27 +4,28 @@ This repository contains **scripts and associated data for constructing and anal
 
 ## Directory structure
 nqr_AF-fMSM
-├── AlphaFold3/                     # job scripts & input files for AlphaFold3
-│   ├── default/ 
-│   │  ├── nqr.json
-│   │  ├── run_msa.sh               # sample script for MSA preparation
-│   │  └── run_inference.sh         # sample script for structural inference
-│   ├── af3_mmm/                    # sample file for MSA subsampling (cf. https://github.com/OkazakiLab/af3_mmm)
-│   └── template_usage/             # sample file for template usage
-├── MSM_FESred/                     # MD data for MSM under reduced 2Fe-2S conditions 
-│   ├── msm_data/ 
-│   ├── AF3/                        # MD data initiated from AF3 structures
-│   ├── round0/                     # MD data initiated from experimental or AF2 structures
-│   ├── round1/                     # MD data in adaptive round 1
-│   ├── round2/                     # MD data in adaptive round 2 
-│   └── round3/                     # MD data in adaptive round 3
-├── MSM_FESox/                      # MD data for MSM under oxidized 2Fe-2S conditions
+├── AlphaFold3/                # job scripts & input files for AlphaFold3
+│   ├── default/
+│   │   ├── nqr.json
+│   │   ├── run_msa.sh         # sample script for MSA preparation
+│   │   └── run_inference.sh   # sample script for structural inference
+│   ├── af3_mmm/               # sample file for MSA subsampling
+│   │                            (cf. https://github.com/OkazakiLab/af3_mmm)
+│   └── template_usage/        # sample file for template usage
+├── MSM_FESred/                # MD data for MSM under reduced 2Fe-2S conditions
+│   ├── msm_data/
+│   ├── AF3/                   # MD data initiated from AF3 structures
+│   ├── round0/                # MD data initiated from experimental or AF2 structures
+│   ├── round1/                # MD data in adaptive round 1
+│   ├── round2/                # MD data in adaptive round 2
+│   └── round3/                # MD data in adaptive round 3
+├── MSM_FESox/                 # MD data for MSM under oxidized 2Fe-2S conditions
 ├── scripts/
-│   ├── mdanalysis.py               # functions for MD data analysis
-│   ├── msm.py                      # functions for MSM analysis
-│   ├── 0_mdanalysis_exe.py         # executable script for MD data analysis
-│   ├── 1_tica_exe.py               # executable script for data preparation for MSM analysis
-│   ├── 2_msm_exe.py                # executable script for MSM analysis
+│   ├── mdanalysis.py          # functions for MD data analysis
+│   ├── msm.py                 # functions for MSM analysis
+│   ├── 0_mdanalysis_exe.py    # executable script for MD data analysis
+│   ├── 1_tica_exe.py          # executable script for data preparation for MSM analysis
+│   ├── 2_msm_exe.py           # executable script for MSM analysis
 │   ├── input_features.csv
 │   └── exp_data/
 └── README.md
